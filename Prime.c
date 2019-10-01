@@ -8,7 +8,7 @@ void main(){
     scanf("%d",&num);
     printf("Prime numbers are:\n");
     //traversing all numbers from 2 to entered integer num
-    for(i=2; i<num; i++)
+    for(i=2; i<sqrt(num); i++)
     {
         //loop to check divisibility
         for(j=2; j<i; j++)
